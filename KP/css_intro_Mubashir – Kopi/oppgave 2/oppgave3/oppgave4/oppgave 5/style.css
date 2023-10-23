@@ -1,0 +1,73 @@
+.header{
+
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    position: absolute;
+    
+    border: black 1px solid;
+    
+    top: 0;
+    
+    left: 0;
+    
+    right: 0;
+    
+    height: 10%
+    
+    }
+    
+    .middle-section{
+    
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    align-items: center;
+    
+    height: 100%;
+    
+    margin-top: 140px;
+    
+    }
+    
+    .mid-divs{
+    
+    border: black 1px solid;
+    
+    height: 300px;
+    
+    width: 300px;
+    
+    }
+    
+    .footer{
+    
+    display: flex;
+    
+    position: absolute;
+    
+    bottom: 0;
+    
+    left: 0;
+    
+    right: 0;
+    
+    border: black 1px solid;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    height: 10%;
+    
+    }
+    
+    .jonny-evans{
+    
+    height: 300px
+    
+    }
