@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konvertering</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <script src="index.js"></script>
+    <h1>Liter konverterer med en Palindrom skjekker</h1>
+    <h2>Her kan du konvertere Gallons, Ounces, Cups, Spiseskjeer til liter 😊</h2>
+    <h3>og se om tallet du har skrevet er en palindrom tall eller ikke😊</h3>
+    <input type="text" id="input" placeholder="Skriv inn mengde...">
+    <select id="from">
+        <option value="3.78541178">Gallon</option>
+        <option value="0.035274">Ounces</option>
+        <option value="0.236588">Cups</option>
+        <option value="0.0147868">Spiseskjeer</option>
+    </select>
+    <div class="buttons-container">
+        <button class="button-arounder" onclick="konvertering()">Konverter</button>
+        <!-- konverting tagen er fra javascript så onlcik=konverting er bare at du klikker, 
+            også får den informasjon fra javascript koden min også innseter alt informasjon fra javascript i html siden min -->
+    </div>
+    <div id="result-box">
+        <h3>Liter Resultat:</h3>
+        <div id="result"></div>
+        <h3>Palindrom Resultat:</h3>
+        <p id="palindrom-message"></p>
+    </div>
+</body>
+</html>
